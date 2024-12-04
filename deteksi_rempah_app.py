@@ -7,6 +7,8 @@ Original file is located at
     https://colab.research.google.com/drive/1icxpPFxkpyksk2CV6RYiPfHTzVUMctbk
 """
 
+!pip install streamlit
+
 import streamlit as st
 import numpy as np
 from PIL import Image
@@ -15,7 +17,7 @@ import os
 import gdown
 
 # URL Google Drive file model
-MODEL_URL = "https://drive.google.com/file/d/12bYRNfO6tryeCjidDFQREgSAR23LdYTf/view?usp=sharing"
+MODEL_URL = "https://drive.google.com/uc?export=download&id=12bYRNfO6tryeCjidDFQREgSAR23LdYTf"
 MODEL_PATH = "rempah_detection_model.h5"
 
 # Fungsi untuk mengunduh model jika belum ada
